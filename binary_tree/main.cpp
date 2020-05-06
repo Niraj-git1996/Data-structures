@@ -68,8 +68,11 @@ void Preorder(struct Node *p)
   int main()
   {
     Treecreate();
+   printf(" the preorder traversal\n");
     Preorder(root);
     printf("\nPost Order ");
    Postorder(root);
+   printf("the Inorder traversal\n");
+   Inorder(root);
     return 0;
    }
